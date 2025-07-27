@@ -1,0 +1,4 @@
+repository "Prototype_6_Warehouse/Prototype_6_Warehouse@10171492059139@cloud"
+  path "/"
+    br "/main"
+    co "/main"
