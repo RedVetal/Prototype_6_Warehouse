@@ -4,8 +4,8 @@
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
-[Bb]uild/
-[Bb]uilds/
+#[Bb]uild/
+#[Bb]uilds/
 [Ll]ogs/
 [Uu]ser[Ss]ettings/
 
@@ -74,6 +74,7 @@ mono_crash.*
 
 # Игнорируем билды в /Build/, /Builds/, но НЕ в /docs
 !/docs/
+!/docs/Build
 
 # =======================
 # Backup и Test файлы
