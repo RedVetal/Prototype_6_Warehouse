@@ -5,7 +5,7 @@ public class MainManager : MonoBehaviour
 {
     // Start() and Update() methods deleted - we don't need them right now
 
-    public static MainManager Instance;
+    public static MainManager Instance { get; private set; } //  you can now set the property’s value from within the class, but only get it from outside the class.
 
     public Color TeamColor;
 
